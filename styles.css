@@ -1793,3 +1793,11 @@ h2 em {
     }
 
 }
+
+#emergency {
+    scroll-margin-top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
