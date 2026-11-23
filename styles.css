@@ -1712,3 +1712,84 @@ h2 em {
         min-height: auto;
     }
 }
+
+/* TABLET */
+@media (max-width: 900px) {
+
+    .problem-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    /* PRODUCT GRID */
+
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    /* EMERGENCY CONTACTS */
+
+    .emergency-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-main {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* PROBLEM SECTION */
+
+    .problem-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* IMAGES */
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* BUTTONS */
+
+    button,
+    .button,
+    .btn {
+        min-height: 44px;
+    }
+
+}
