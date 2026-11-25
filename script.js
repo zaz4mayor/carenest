@@ -1,10 +1,10 @@
 // CareNest storefront configuration. Replace these placeholders before publishing.
 const STORE_CONFIG = {
-  whatsappNumber: "6285157861182", // Example format: 6281234567890 (digits only, include country code)
+  whatsappNumber: "6287759907751", // Example format: 6281234567890 (digits only, include country code)
   social: { instagram: "https://www.instagram.com/carenest.kit?bqrl=NnBvbGF0c2hvdnM0"},
   products: {
-    pink: { name: "CareNest Pink", price: 110000 },
-    red: { name: "CareNest Red", price: 100000 }
+    pink: { name: "CareNest Pink", price: 350000 },
+    red: { name: "CareNest Red", price: 350000 }
   }
 };
 
